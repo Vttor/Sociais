@@ -12,8 +12,10 @@ html {
     --primary-color-dark: #364FC7; 
 }
 body.dark-blue {
-    --bg-color: #00082F;
+    --bg-color: #131938;
+    --second-bg-color: #2e3f92;
     --text-color: #FFFFFF;
+    --shadow-color: #02071f;
 }
   
 body.pink {
@@ -29,14 +31,17 @@ a{
 }
 
 body{
-    background: var(--bg-color);
+    background: radial-gradient(circle, var(--bg-color), var(--second-bg-color));
     font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
 }
 
 .container {
     text-align: center;
     width: 300px;
     margin: 60px auto;
+    padding: 50px;
+    box-shadow: 0px 0px 15px 5px var(--shadow-color);
 }
 
 .ProfilePicture{
@@ -75,8 +80,6 @@ ul li a{
 
     margin-bottom: 16px;
     border-radius: 6px;
-
-    cursor: pointer;
 
     transition: background 400ms;
 }
