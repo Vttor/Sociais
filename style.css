@@ -20,9 +20,11 @@ body.dark-blue {
   
 body.pink {
     --bg-color: #FFF0F6;
+    --second-bg-color: #ecb2ca;
     --text-color: #1F000B;
     --primary-color: #D6336C;
     --primary-color-dark: #A61E4D;
+    --shadow-color: #DBCED3;
 }
 
 
