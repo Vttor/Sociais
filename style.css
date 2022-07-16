@@ -38,6 +38,17 @@ body{
     background-attachment: fixed;
 }
 
+header div {
+    height: 10px;
+    width: 10px;
+    border: black solid 2px;
+}
+
+.cabecalho {
+    background-color: white;
+    height: 20px;
+}
+
 .container {
     text-align: center;
     width: 300px;

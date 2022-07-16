@@ -11,43 +11,57 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body class="pink">
-    <div class = "container">
-        <img src="https://github.com/vttors.png" alt="Foto de Perfil" class="ProfilePicture">
-        <h1>Vitor Santos</h1>
-        <p class="username">@vttors</p>    
-        <ul>
-            <li>
-                <a href="https://github.com/vttors" 
-                target="_blank">
-                <img src="./src/Icons/iconGitHub.svg" alt="Ícone do GitHub"> GitHub
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/vttor-santos/" target="_blank">
-                <img src="./src/Icons/iconLinkedIn.svg" alt="Ícone do Linkedin">Linkedin
-                </a>
-            </li>
-            <li>
-                <a href="https://instagram.com/vttors" 
-                target="_blank"><img src="./src\Icons\iconInstagram.svg" 
-                alt="Ícone do Instagram">Instagram
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/vttors" 
-                target="_blank"><img src="./src/Icons/iconTwitter.svg" alt="Ícone do Twitter">Twitter
-                </a>
-            </li>
-        </ul>
-
-    <footer>Feito por Vitor Santos
-        <br>
-        <p>Evento RocketSeat</p>
-    </footer>
-</div>
+<body class="pink" id="tema">
+    <section>
+        <div class = "container">   
+            <img src="https://github.com/vttors.png" alt="Foto de Perfil" class="ProfilePicture">
+            <h1>Vitor Santos</h1>
+            <p class="username">@vttors</p>    
+            <ul>
+                <li>
+                    <a href="https://github.com/vttors" 
+                    target="_blank">
+                        <img src="./src/Icons/iconGitHub.svg" alt="Ícone do GitHub"> GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/vttor-santos/" target="_blank">
+                        <img src="./src/Icons/iconLinkedIn.svg" alt="Ícone do Linkedin">Linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vttors.github.io/Curriculo" target="_blank">
+                        <img src="./src/Icons/IconCurriculo.svg" alt="Ícone do Curriculo"> curriculo
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/vttors" target="_blank">
+                        <img src="./src\Icons\iconInstagram.svg" alt="Ícone do Instagram">Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/vttors" 
+                        target="_blank"><img src="./src/Icons/iconTwitter.svg" alt="Ícone do Twitter">Twitter
+                    </a>
+                </li>
+            </ul>
+            <footer>Feito por Vitor Santos
+                <br>
+                <p>Evento RocketSeat</p>
+            </footer>
+        </div>
+    </section>
 </body>
 </html>
+
+<script>
+    function changeBackground(cor){
+        let classe = document.getElementById("tema");
+        classe.classList.remove(classe.className);
+        classe.classList.add(cor);
+    }
+</script>
+
 
 <!--
     <a target="_blank" href="https://icons8.com/icon/85044/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
